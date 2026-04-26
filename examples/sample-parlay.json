@@ -1,0 +1,24 @@
+{
+  "stake": 100,
+  "legs": [
+    {
+      "label": "Phillies @ Braves · Total Under 8.5",
+      "sport": "baseball_mlb",
+      "event_id": "11706",
+      "market": "totals",
+      "point": 8.5,
+      "outcome": "Under",
+      "price_american": -113,
+      "book": "unibet"
+    },
+    {
+      "label": "Braves moneyline",
+      "sport": "baseball_mlb",
+      "event_id": "11706",
+      "market": "h2h",
+      "outcome": "Atlanta Braves",
+      "price_american": -118,
+      "book": "unibet"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "propline-parlay-ev",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compute the true EV of a parlay using PropLine's no-vig fair lines",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "propline-parlay-ev": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node --import tsx/esm src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "propline": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
