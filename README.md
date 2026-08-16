@@ -112,6 +112,13 @@ See [`src/parlay.ts`](src/parlay.ts) for the full math.
 
 If you put `5 legs at -110` into a sportsbook's parlay calculator, it'll give you `+2400` payout and tell you "great parlay!" The book is actually pricing the parlay at ~26% implied probability vs the no-vig joint probability of ~31% — they've vig'd you 5%. PropLine's `/ev` endpoint computes the no-vig view per leg, and this tool composes them into the parlay-level number you actually need to make the bet vs no-bet decision.
 
+## Links
+
+- Endpoint this tool uses: [`/ev` per event](https://prop-line.com/docs?ref=github#ev) — cross-book +EV with no-vig fair lines
+- [Live +EV board](https://prop-line.com/ev?ref=github) · [DFS payout math](https://prop-line.com/ev-calculator?ref=github)
+- [Prop resolution API](https://prop-line.com/prop-resolution-api?ref=github) — every prop graded against the box score, for checking whether the plays hit
+- [More recipes](https://prop-line.com/recipes?ref=github) · [Pricing](https://prop-line.com/pricing?ref=github) · [Node SDK](https://www.npmjs.com/package/propline)
+
 ## License
 
 MIT.
