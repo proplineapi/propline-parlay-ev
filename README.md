@@ -114,6 +114,7 @@ If you put `5 legs at -110` into a sportsbook's parlay calculator, it'll give yo
 
 ## Links
 
+- **Player props API** (markets, books, sports covered): [prop-line.com/player-props-api](https://prop-line.com/player-props-api?ref=github)
 - Endpoint this tool uses: [`/ev` per event](https://prop-line.com/docs?ref=github#ev) — cross-book +EV with no-vig fair lines
 - [Live +EV board](https://prop-line.com/ev?ref=github) · [DFS payout math](https://prop-line.com/ev-calculator?ref=github)
 - [Prop resolution API](https://prop-line.com/prop-resolution-api?ref=github) — every prop graded against the box score, for checking whether the plays hit
